@@ -1,0 +1,7 @@
+language: csharp
+solution: Oware.sln
+script:
+  - dotnet test
+jobs: 
+  include:
+    - dotnet : 5.0
